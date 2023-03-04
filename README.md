@@ -1,3 +1,9 @@
+
+![Untitled design (11)](https://user-images.githubusercontent.com/59754026/222900136-9f84d044-8e1d-4424-a651-ba6d432a2921.png)
+
+<h4>Practice React Layout & Component seperation [ Develop static frontend for CORE UI Dashboard design ]</h4>
+<hr>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
