@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function CoreUi() {
+export default function CoreUi({img}) {
   return (
-    <div>
-      <p>BrandLogo</p>
+    <div style={{padding:'15.5px'}}>
+      <img src={img} style={{width:'100px'}} />
     </div>
   )
 }

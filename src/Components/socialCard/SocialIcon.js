@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
-export default function SocialIcon() {
+export default function SocialIcon({ icon, bgColor }) {
   return (
-    <div>
-      <p>Social Icon</p>
+    <div
+      style={{
+        backgroundColor: bgColor,
+        padding: "15px",
+      }}
+    >
+      <img src={icon} style={{ width: "50px", backgroundColor: { bgColor } }} />
     </div>
-  )
+  );
 }

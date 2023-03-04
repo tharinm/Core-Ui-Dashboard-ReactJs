@@ -7,12 +7,12 @@ import Trafficgraph from "./homeContent/Trafficgraph";
 
 export default function HomeContent() {
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <Primarynavbar />
       <Secondarynavbar />
       <OverviewList />
-      <Trafficgraph/>
-      <Socialcard/>
+      <Trafficgraph />
+      <Socialcard />
     </div>
   );
 }

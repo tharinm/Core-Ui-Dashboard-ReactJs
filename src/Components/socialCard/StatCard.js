@@ -1,13 +1,13 @@
 import React from 'react'
 
-export default function StatCard() {
+export default function StatCard({value,title }) {
   return (
     <div>
       <p>
-        <i>89K</i>
+        <i>{ value}</i>
       </p>
       <p>
-        <i>FRIENDS</i>
+        <i>{ title}</i>
       </p>
     </div>
   );
