@@ -50,9 +50,10 @@ export default function Socialcard() {
       style={{
         backgroundColor: "",
         display: "flex",
-        gap: "10px",
-        justifyContent: "space-between",
+        gap: "50px",
+        justifyContent: "center",
         marginTop: "50px",
+        marginLeft:'12px'
       }}
     >
       {socialStat.map((val, key) => {
